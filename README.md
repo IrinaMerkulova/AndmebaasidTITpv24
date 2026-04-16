@@ -21,7 +21,7 @@ andmebaasidega seotud SQL kood ja konspektid
 ## SQL - structure Query Language - struktureeritud päringu keel
 - Tabeli loomine
 ```sql
-  CREATE TABLE opilane(
+CREATE TABLE opilane(
 opilaneID int Primary Key identity(1,1),--automaatselt täidab numbritega
 eesnimi varchar(25),
 perenimi varchar(30) NOT NULL,
@@ -34,5 +34,12 @@ keskmineHinne decimal(2,1) );--(2--kokku, 1- peale komat nt 4.5)
 SELECT * FROM opilane;
 ```
 - Andmete sisestamine tabelisse
-   ```
-   ```
+```sql
+   INSERT INTO opilane
+VALUES ('Artjom','Jegorov', '2000-12-10',1,'+325689','Tallinn', 4.5);
+
+INSERT INTO opilane(perenimi, eesnimi, keskmineHinne)
+VALUES ('Sereda', 'Ivan', 4.2),
+('Holovanov', 'Ivan', 4.2),
+('Suvorov', 'Marko', 5.0);
+```
