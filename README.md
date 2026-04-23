@@ -3,6 +3,7 @@ andmebaasidega seotud SQL kood ja konspektid
 ## Sisukord
 - [Põhimõisted](#pohimoisted)
 - [Andmetüübid](#andmetüübid)
+- [PIIRANGUD](#PIIRANGUD)
 
 
 
