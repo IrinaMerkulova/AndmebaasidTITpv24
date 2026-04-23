@@ -4,6 +4,7 @@ andmebaasidega seotud SQL kood ja konspektid
 - [Põhimõisted](#pohimoisted)
 - [Andmetüübid](#andmetüübid)
 - [PIIRANGUD](#PIIRANGUD)
+- [SQL - structure Query Language](#SQL-structure-Query-Language)
 
 
 
@@ -25,7 +26,8 @@ andmebaasidega seotud SQL kood ja konspektid
 3. Loogilised: boolean, true/false, bit, bool
 4. Kuupäeva: date, time, datetime
 ```
-## SQL - structure Query Language - struktureeritud päringu keel
+## SQL - structure Query Language 
+- struktureeritud päringu keel
 - Tabeli loomine
 ```sql
 CREATE TABLE opilane(
