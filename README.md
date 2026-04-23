@@ -1,5 +1,10 @@
 ## AndmebaasidTITpv24
 andmebaasidega seotud SQL kood ja konspektid
+## Sisukord
+- [Põhimõisted](#pohimoisted)
+
+
+
 ## Põhimõisted
 - andmebaas - struktureeritud andmete kogum
 - tabel = olem -сущность -entity
