@@ -5,6 +5,8 @@ andmebaasidega seotud SQL kood ja konspektid
 - [Andmetüübid](#andmetüübid)
 - [PIIRANGUD](#PIIRANGUD)
 - [SQL - structure Query Language](#SQL-structure-Query-Language)
+- [ALTER TABLE](#ALTER-TABLE)
+- [Tabelivahelised seosed](#Tabelivahelised-seosed)
 
 
 
@@ -53,7 +55,7 @@ VALUES ('Sereda', 'Ivan', 4.2),
 ('Suvorov', 'Marko', 5.0);
 ```
 
-## Seosed (tabelivahelised seosed)
+## Tabelivahelised seosed
 - üks-ühele (nt mees-naine)
 - üks-mitmele (nt ema-lapsed)<img width="568" height="259" alt="{E2FACBE8-350C-4C5E-921C-593CFC1BE579}" src="https://github.com/user-attachments/assets/3a0612f4-d242-4ac9-863d-0065ee8346c8" />
 - mitu-mitmele  (nt õpilased - õpetajad)
