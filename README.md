@@ -4,9 +4,10 @@ andmebaasidega seotud SQL kood ja konspektid
 - [Põhimõisted](#pohimoisted)
 - [Andmetüübid](#andmetüübid)
 - [PIIRANGUD](#PIIRANGUD)
+- [Tabelivahelised seosed](#Tabelivahelised-seosed)
 - [SQL - structure Query Language](#SQL-structure-Query-Language)
 - [ALTER TABLE](#ALTER-TABLE)
-- [Tabelivahelised seosed](#Tabelivahelised-seosed)
+
 
 
 
