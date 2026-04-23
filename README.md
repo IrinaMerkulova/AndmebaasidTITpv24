@@ -73,6 +73,47 @@ SELECT * FROM opilane;
 INSERT INTO opetamine
 VALUES ('2026-04-16', 'andmebaasid', 5, 4)
 ```
+## ALTER TABLE 
+-tabeli struktuuri muutmine (struktuur: veerudenimed, andmetüübid, piirangud)
+
+```sql
+--uue veeru lisamine
+ALTER TABLE opilane ADD isikukood varchar(11);
+
+--veeru kustutamine
+ALTER TABLE opilane DROP COLUMN isikukood;
+
+--andmetüübi muutmine varchar(11)-->char(11)
+ALTER TABLE opilane ALTER COLUMN isikukood char(11);
+
+--sisseehitatud protseduur, mis näitab tabeli struktuur
+sp_help opilane;
+
+```
+```sql
+--PK lisamine
+ALTER TABLE ryhm ADD CONSTRAINT pk_ryhm PRIMARY KEY (ryhmId);
+--UNIQUE lisamine
+ALTER TABLE ryhm ADD CONSTRAINT un_ryhm UNIQUE (ryhmNimi);
+
+--kontollimiseks täidame tabelit ryhm
+SELECT * FROM ryhm;
+INSERT INTO ryhm (ryhmId, ryhmNimi)
+VALUES (2, 'TITpe24');
+
+--lisame Foreign Key - võõrvõti-välisvõti
+ALTER TABLE opilane ADD ryhmId int;
+SELECT * FROM opilane;
+SELECT * FROM ryhm;
+ALTER TABLE opilane ADD CONSTRAINT fk_ryhm 
+FOREIGN KEY (ryhmId) REFERENCES ryhm(ryhmId);
+```
+
+
+
+
+
+
 
 
 
