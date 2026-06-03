@@ -1,4 +1,7 @@
-## AndmebaasidTITpv24
+## Andmebaaside konspektid | Irina
+
+[Põhimõsted](README.md) | [Protseduurid](protseduur.md)
+
 andmebaasidega seotud SQL kood ja konspektid
 ## Sisukord
 - [Põhimõisted](#pohimoisted)
